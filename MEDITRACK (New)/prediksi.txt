@@ -1,0 +1,44 @@
+RUMAH SAKIT A
+
+<pre>
+  <span></span><span class="n">Jumlah_Pasien</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">20</span><span class="p">]])</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Jumlah pasien di hari ke 20 : &quot;</span><span class="p">,</span> <span class="n">Jumlah_Pasien</span><span class="p">)</span>
+</pre>
+<pre>
+  <span></span><span class="n">Jumlah_Pasien</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">21</span><span class="p">]])</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;BOR di hari ke 21 : &quot;</span><span class="p">,</span> <span class="n">Jumlah_Pasien</span><span class="p">)</span>
+</pre>
+<pre>
+  <span></span><span class="n">Jumlah_Pasien</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">30</span><span class="p">]])</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;BOR di hari ke 30 : &quot;</span><span class="p">,</span> <span class="n">Jumlah_Pasien</span><span class="p">)</span>
+</pre>
+<pre>
+  <span></span><span class="n">hari</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masukan hari: &quot;</span><span class="p">)</span>
+  <span class="n">Jumlah_Pasien</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="n">hari</span><span class="p">]])</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;BOR di hari ke&quot;</span><span class="p">,</span> <span class="n">hari</span><span class="p">,</span> <span class="s2">&quot;:&quot;</span><span class="p">,</span> <span class="n">Jumlah_Pasien</span><span class="p">)</span>
+</pre>
+<pre>Masukan hari: 50
+BOR di hari ke 50 : [31.37068966]</pre>
+
+RUMAH SAKIT B
+
+ <pre>
+    <span></span><span class="n">Jumlah_Pasien</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">18</span><span class="p">]])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Jumlah pasien di hari ke 18 : &quot;</span><span class="p">,</span> <span class="n">Jumlah_Pasien</span><span class="p">)</span>
+  </pre>
+<pre>
+    <span></span><span class="n">Jumlah_Pasien</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">20</span><span class="p">]])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;BOR di hari ke 20 : &quot;</span><span class="p">,</span> <span class="n">Jumlah_Pasien</span><span class="p">)</span>
+  </pre>
+<pre>
+    <span></span><span class="n">Jumlah_Pasien</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="mi">22</span><span class="p">]])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;BOR di hari ke 22 : &quot;</span><span class="p">,</span> <span class="n">Jumlah_Pasien</span><span class="p">)</span>
+  </pre>
+<pre>
+    <span></span><span class="n">hari</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masukan hari: &quot;</span><span class="p">)</span>
+    <span class="n">Jumlah_Pasien</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">([[</span><span class="n">hari</span><span class="p">]])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;BOR di hari ke&quot;</span><span class="p">,</span> <span class="n">hari</span><span class="p">,</span> <span class="s2">&quot;:&quot;</span><span class="p">,</span> <span class="n">Jumlah_Pasien</span><span class="p">)</span>
+  </pre>
+<pre>Masukan hari: 23
+       BOR di hari ke 23 : [1.44475921]
+  </pre>	
